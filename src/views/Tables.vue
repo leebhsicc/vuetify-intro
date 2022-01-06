@@ -4,7 +4,7 @@
       <v-data-table
         :headers="headers"
         :items="desserts"
-        :items-per-page="5"
+        :items-per-page="3"
         :footer-props="{'items-per-page-options':[3,6,9,-1]}"
         class="elevation-1"
       >

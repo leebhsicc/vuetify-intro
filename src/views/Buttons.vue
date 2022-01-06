@@ -1,0 +1,50 @@
+<template>
+  <v-container>
+    <v-card class="pa-3">
+      <v-row
+        style="height:200px"
+        justify="center"
+        align="center"
+      >
+        <v-col cols="auto">
+          <v-btn
+            color="primary"
+          >
+            Primary
+          </v-btn>
+        </v-col>
+        <v-col cols="auto">
+          <v-btn
+            color="warning"
+          >
+            warning
+          </v-btn>
+        </v-col>
+        <v-col cols="auto">
+          <v-btn
+            color="error"
+          >
+            error
+          </v-btn>
+        </v-col>
+        <v-col cols="auto">
+          <v-btn
+            color="success"
+          >
+            success
+          </v-btn>
+        </v-col>
+      </v-row>
+    </v-card>
+  </v-container>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

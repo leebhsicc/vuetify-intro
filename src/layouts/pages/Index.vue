@@ -1,23 +1,21 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <v-toolbar-title>Page Layout</v-toolbar-title>
-    </v-app-bar>
-    <v-main>
-      <v-container fluid>
-        <router-view />
-      </v-container>
-    </v-main>
+    <page-appbar />
+    <page-view />
   </v-app>
 </template>
 
 <script>
+import PageAppbar from './Appbar.vue'
+import PageView from './View.vue'
+
+
 export default {
   name: 'PageLayout',
+  components: {
+    PageAppbar,
+    PageView
+  }
 
 }
 </script>
